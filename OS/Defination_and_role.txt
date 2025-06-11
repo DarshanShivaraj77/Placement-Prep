@@ -1,0 +1,39 @@
+Definition of Operating System (OS):
+An Operating System (OS) is a system software that acts as an intermediary between computer hardware and the user. It manages hardware resources and provides essential services to application programs, enabling the execution of programs efficiently and safely.
+
+
+
+Roles of OS:
+1. Resource Manager
+Definition: The OS manages hardware resources such as CPU, memory, I/O devices, and disk space.
+Example: When multiple applications are running (like Chrome, VS Code, and Spotify), the OS allocates CPU time to each using scheduling algorithms.
+Without OS: Resources could be overused or conflict (e.g., two programs trying to write to disk at the same time), leading to system crashes.
+
+
+
+2. User Interface (Abstraction Layer)
+Definition: The OS provides a layer of abstraction between the user and the hardware. Users interact with the OS via GUI (Graphical User Interface) or CLI (Command Line Interface).
+Example: Clicking on icons in Windows or typing commands in Linux shell interacts with the system without needing to manage hardware directly.
+Without OS: Users would need to write low-level machine code or assembly instructions to perform simple tasks like opening a file or printing a document.
+
+
+
+3. Enforcer of DRY (Do Not Repeat Yourself) Principle
+Definition: The OS provides reusable code and services (like file systems, network stacks, and memory allocation) so that application developers don't have to write them repeatedly.
+Example: All applications use the same OS-provided APIs to open files (like fopen() in C).
+Without OS: Every application would have to implement its own file handling, process scheduling, and device control, leading to redundancy and inconsistencies.
+
+
+
+4. Isolation and Protection
+Definition: The OS ensures that one process does not interfere with another’s memory or data. It protects system resources from unauthorized access.
+Example: When you run a banking app and a game simultaneously, the OS ensures the game cannot access your bank data.
+Without OS: Malicious or buggy software could read/write to any part of memory or disk, leading to data corruption or security breaches.
+
+
+
+5. Hiding Hardware Complexity
+Definition: The OS hides low-level hardware operations from users and applications by providing a clean and uniform interface.
+Example: You can save a file without knowing whether your system uses an HDD, SSD, or cloud storage—the OS abstracts it away.
+Without OS: Developers and users would need to understand and write device-specific code for every type of hardware, increasing complexity and reducing compatibility.
+
